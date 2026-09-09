@@ -1,0 +1,16 @@
+{
+  "name": "ma-xinyu-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node --check public/script.js && node --check scripts/build.mjs && node --check scripts/serve.mjs",
+    "test": "npm run check && npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
